@@ -1,33 +1,130 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+html, body{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  letter-spacing: 5px;
+  background-color: white !important;
+  /* box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2); */
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+.navbar-brand {
+  font-size: 2em;
+}
+.navbar-brand img{
+  height: 40px;
+}
+#quick-search {
+      border-color: #22a7f0;
+}
+.spinner-grow {
+  margin-top: 100px;
+  width: 4em;
+  height: 4em;
+}
+.card {
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: auto;
+  /*width: 80%;*/
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-content {
+  padding: 2px 16px;
+}
+.card img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+.btn {
+  border: none;
+  /*padding: 16px 32px;*/
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.bluish{
+  color: #22a7f0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-primary {
+  background-color: #22a7f0; /* bluish */
+  color: white; 
+  border: 2px solid #22a7f0;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: #22a7f0;
+  border-color: #22a7f0;
+}
+.btn-default {
+  background-color: white; /* bluish */
+  color: #22a7f0; 
+  border: 2px solid #22a7f0;
+}
+.btn-default:hover {
+  background-color: #22a7f0;
   color: white;
+  border-color: #22a7f0;
 }
-
-.App-link {
-  color: #61dafb;
+.input-lg{
+  margin: 4px 2px;
 }
+.thumbnail {
+/*    height: 450px;*/
+  overflow-y: scroll;
+}
+.thumbnail a>img, .thumbnail>img {
+/*    height: 400px;*/
+  margin-right: auto;
+  margin-left: auto;
+}
+#search_results{
+  justify-content: center;
+  align-items: center;
+}
+.avatar{
+  max-width: 290px;
+}
+/*
+* Book cover
+*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (min-width: 480px) {
+  #quick-search {
+      width: 40vw;
   }
 }
