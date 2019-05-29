@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4277a58ef7585bbb626a780afc00e8d7",
+    "revision": "789698b7b18f2dfe8ba991b389c2f6fc",
     "url": "/finnabooks/index.html"
   },
   {
-    "revision": "8602feb6c54d7a457c50",
+    "revision": "bab51cc8709e038c11e8",
     "url": "/finnabooks/static/css/main.ab20f55a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/finnabooks/static/js/2.ee8d10e3.chunk.js"
   },
   {
-    "revision": "8602feb6c54d7a457c50",
-    "url": "/finnabooks/static/js/main.bb7d3853.chunk.js"
+    "revision": "bab51cc8709e038c11e8",
+    "url": "/finnabooks/static/js/main.33585209.chunk.js"
   },
   {
     "revision": "4a408452e6b25a447786",
