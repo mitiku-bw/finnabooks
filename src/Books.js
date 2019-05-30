@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { Consumer } from '../../context'
-import Spinner from '../layout/Spinner'
-import Book from '../books/Book'
+import { Consumer } from './context'
+import Spinner from './Spinner'
+import Book from './Book'
 
 class Books extends Component {
     render() {

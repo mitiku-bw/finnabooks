@@ -2,7 +2,7 @@
   "name": "finnabooks",
   "version": "0.1.0",
   "private": true,
-  "Homepage": "https://mitiku-bw.github.io/finnabooks/",
+  "homepage": "https://mitiku-bw.github.io/finnabooks",
   "dependencies": {
     "axios": "^0.18.0",
     "core-js": "^3.1.2",

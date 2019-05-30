@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from './components/layout/Navbar';
-import Index from './components/layout/Index';
+import Navbar from './Navbar';
+import Index from './Iindex';
 import { Provider } from './context'
 import './App.css';
 
