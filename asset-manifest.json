@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/finnabooks/static/css/main.ab20f55a.chunk.css",
-    "main.js": "/finnabooks/static/js/main.ea8cbd44.chunk.js",
-    "main.js.map": "/finnabooks/static/js/main.ea8cbd44.chunk.js.map",
+    "main.js": "/finnabooks/static/js/main.07750711.chunk.js",
+    "main.js.map": "/finnabooks/static/js/main.07750711.chunk.js.map",
     "runtime~main.js": "/finnabooks/static/js/runtime~main.112e6264.js",
     "runtime~main.js.map": "/finnabooks/static/js/runtime~main.112e6264.js.map",
     "static/js/2.ee8d10e3.chunk.js": "/finnabooks/static/js/2.ee8d10e3.chunk.js",
     "static/js/2.ee8d10e3.chunk.js.map": "/finnabooks/static/js/2.ee8d10e3.chunk.js.map",
     "index.html": "/finnabooks/index.html",
-    "precache-manifest.dfe58aeb6daefe0a7d282fe407dbf10f.js": "/finnabooks/precache-manifest.dfe58aeb6daefe0a7d282fe407dbf10f.js",
+    "precache-manifest.8d43541523aae7cad853193afe950061.js": "/finnabooks/precache-manifest.8d43541523aae7cad853193afe950061.js",
     "service-worker.js": "/finnabooks/service-worker.js",
     "static/css/main.ab20f55a.chunk.css.map": "/finnabooks/static/css/main.ab20f55a.chunk.css.map",
     "static/media/finnabooks.png": "/finnabooks/static/media/finnabooks.861dabee.png"
