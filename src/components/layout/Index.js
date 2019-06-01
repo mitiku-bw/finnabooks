@@ -1,7 +1,7 @@
 import React from 'react'
-import Books from './Books'
+import Books from '../books/Books'
 
-const Iindex = () => {
+const Index = () => {
     return(
         <div>
             <React.Fragment>
@@ -11,4 +11,4 @@ const Iindex = () => {
     )
 }
 
-export default Iindex
+export default Index
