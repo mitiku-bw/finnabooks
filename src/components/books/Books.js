@@ -7,9 +7,9 @@ class Books extends Component {
     render() {
         return (
         <Consumer>
-            {value =>{
+            {value =>{  
                 const { book_list, heading } = value
-                if(book_list === undefined || book_list.length === 0){
+                if(book_list === 'undefined' || book_list.length === 0){
                     return <Spinner />
                 }else{
                     return (

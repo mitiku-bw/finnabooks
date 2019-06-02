@@ -10,9 +10,11 @@ export class Provider extends Component {
     }
 
     componentDidMount(){
-        axios.get(`https://api.finna.fi/v1/search?lookfor=&filter[]=format:0/Book/&field[]=id&field[]=title&field[]=primaryAuthors&field[]=images&field[]=publishers&field[]=rating&field[]=year&limit=100`)
+        //https://api.finna.fi/api/v1/search?type=AllFields&field[]=id&field[]=title&field[]=primaryAuthors&field[]=publishers&field[]=year&field[]=images&field[]=ratings&sort=relevance%2Cid%20asc&page=1&limit=20&prettyPrint=false&lng=fi
+
+        axios.get(`https://api.finna.fi/api/v1/search?type=AllFields&field[]=id&field[]=title&field[]=primaryAuthors&field[]=publishers&field[]=year&field[]=images&field[]=ratings&filter[]=format%3A0%2FBook%2F&sort=relevance%2Cid%20asc&page=1&limit=100&prettyPrint=false&lng=fi`)
         .then(res => {
-            this.setState({ book_list:res.data.records })
+            this.setState({ book_list:res.data.records})
             console.log(res.data.records)
         })
         .catch(res => console.log(res.err))

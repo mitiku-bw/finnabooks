@@ -44,11 +44,14 @@ p{
   height: 4em;
 }
 .card {
-  margin: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 0;
+  box-shadow: none;
+/*   margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
   transition: 0.3s;
   height: auto;
   /*width: 80%;*/
+  border: 1px solid var(--light);
 }
 
 .card:hover {
@@ -63,6 +66,12 @@ p{
   width: 100%;
   height: auto;
   margin: 0;
+}
+.shadow-sm {
+  box-shadow: none!important;
+}
+.fa-star{
+  color: #fd7e14;
 }
 .btn {
   border: none;
