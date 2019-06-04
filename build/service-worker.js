@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/finnabooks/precache-manifest.8d43541523aae7cad853193afe950061.js"
+  "/finnabooks/precache-manifest.512f0d03932e6ce347052f9755131cdd.js"
 );
 
 self.addEventListener('message', (event) => {

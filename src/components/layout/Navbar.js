@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <div className="container">
       <nav className="row navbar navbar-light bg-light">
-        <a className="navbar-brand" href="/">
+        <div className="navbar-brand" href="/">
           <img src={logo} alt="logo" />
           <span className="bluish">Finna</span>Books
-        </a>
+        </div>
         <form className="form-inline">
           <input
             className="form-control input-lg"

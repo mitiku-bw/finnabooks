@@ -9,11 +9,11 @@ const Book = (props) => {
             <div className="card mb-4 shadow-sm">
                 <Link to={`details/book/${book.id}`} className="card-link">
                     <img src={preimage_url+book.images} className="card-img-top" alt={book.title} />
-                    <div className="card-body">
+                    </Link> <div className="card-body">
                         <h5 className="card-title">{book.title}</h5>  
                         <p className="card-text">{book.year}</p>                  
                     </div>
-                </Link>
+                
             </div>
         </div>
     )

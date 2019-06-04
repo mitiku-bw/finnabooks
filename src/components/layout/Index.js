@@ -1,13 +1,13 @@
 import React from 'react'
 import Books from '../books/Books'
+import Search from '../books/Search';
 
 const Index = () => {
     return(
-        <div>
-            <React.Fragment>
-                <Books />
-            </React.Fragment>
-        </div>
+        <React.Fragment>
+            {/* <Search /> */}
+            <Books />
+        </React.Fragment>
     )
 }
 
