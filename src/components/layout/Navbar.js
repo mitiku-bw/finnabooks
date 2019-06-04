@@ -12,11 +12,11 @@ class Navbar extends Component {
     e.preventDefault()
     axios.get(`https://api.finna.fi/v1/search?lookfor=${this.state.quickSearch}`)
         .then(res => {
-            // this.setState({ quickSearch:res.data.records[0]})
             dispatch({
               type: 'SEARCH_BOOKS',
               payload: res.data.records
             })
+            this.setState({quickSearch: ''})
         })
         .catch(res => console.log(res.err))
   }
